@@ -4,6 +4,7 @@ import { Image, View, TouchableOpacity, TextInput, Keyboard, StyleSheet,
 import imageLogo from '../assets/Images/Aquaponic.png';
 import background from '../assets/Backgrounds/backgroundBG.png';
 
+// the const username/email and password for easier access app (temporary)
 const Valid_Email = "worker_one@ponics.com";
 const Valid_Pass = "PonicsOverseer"
 
