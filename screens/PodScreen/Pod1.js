@@ -24,6 +24,7 @@ class Pod1 extends Component {
 
     // Get request from RasberryPi to get the temperature reading.
     // 1 sec time inverval refreshes the data shown.
+    // Have yet to add in if error then show 'offline'
     // fetchTemp() { 
     //     setInterval(()=> {
     //     fetch('http://192.168.1.125:5000/temperature') 
@@ -108,7 +109,7 @@ class Pod1 extends Component {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(30),
+            body: JSON.stringify(30), // 30 for 30mins of water pump run time
         })
     }
 
