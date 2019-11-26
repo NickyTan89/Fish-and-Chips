@@ -3,6 +3,8 @@ import { ImageBackground, StyleSheet, Image, ScrollView, TouchableOpacity, Text,
 import background from '../assets/Backgrounds/backgroundBG.png';
 import logo from '../assets/Images/aqua.png';
 
+
+// dummy settings page, not fully functional yet.
 class TestSet extends Component {
   static navigationOptions = {
     header: null
