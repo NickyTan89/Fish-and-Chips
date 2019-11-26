@@ -49,7 +49,7 @@ class Pod1 extends Component {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify("ON")
+            body: JSON.stringify({command:"ON"})
         }) 
     }
 
@@ -60,7 +60,7 @@ class Pod1 extends Component {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify("OFF")
+            body: JSON.stringify({command:"OFF"})
         })
     }
 
@@ -84,7 +84,7 @@ class Pod1 extends Component {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({command: "OFF"}),
+            body: JSON.stringify({command:"OFF"}),
         })
     }
 
